@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "corrections": [
+    {
+      "pmcid": "PMC11139362",
+      "expected": {"pmid": "38828236"},
+      "set": {"pmid": "38828255"},
+      "source": "MedCase-150K 2024 medical_case_reports catalog and its accompanying documented PMID correction."
+    }
+  ]
+}

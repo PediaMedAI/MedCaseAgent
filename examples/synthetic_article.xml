@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Entirely invented fixture. These identifiers are placeholders, not citations. -->
+<article xmlns:xlink="http://www.w3.org/1999/xlink" article-type="case-report">
+  <front><article-meta>
+    <article-id pub-id-type="pmc">999999999</article-id>
+    <article-id pub-id-type="pmid">999999998</article-id>
+    <article-id pub-id-type="doi">10.0000/synthetic-only</article-id>
+    <title-group><article-title>Synthetic teaching case: a fictional patient</article-title></title-group>
+    <abstract><p>ABSTRACT_ONLY_TEXT: A fabricated abstract used to test separation.</p></abstract>
+  </article-meta></front>
+  <body>
+    <sec sec-type="intro"><title>Background</title><p>BACKGROUND_ONLY_TEXT: General disease information must not enter the clinical prompt.</p></sec>
+    <sec sec-type="case"><title>Case presentation</title>
+      <p>A fictional adult reported a cough lasting two days. No prior respiratory illness was recorded.</p>
+      <p>The measured temperature was 37.4 degrees Celsius. A synthetic radiograph showed a small opacity <xref ref-type="fig" rid="f1">Figure 1</xref>.</p>
+      <p>Supportive treatment was provided. Symptoms resolved at the fictional seven-day follow-up.</p>
+      <table-wrap id="t1"><label>Table 1</label><caption><p>Invented observation table.</p></caption><table><tbody>
+        <tr><th>Observation</th><th>Value</th></tr><tr><td>Temperature</td><td>37.4 C</td></tr>
+      </tbody></table></table-wrap>
+      <fig id="f1"><label>Figure 1</label><caption><p>CAPTION_ONLY_TEXT: Synthetic image caption.</p></caption><graphic xlink:href="synthetic-image"/></fig>
+    </sec>
+    <sec><title>Discussion</title><p>DISCUSSION_ONLY_TEXT: An invented explanatory narrative <xref ref-type="bibr" rid="r1">1</xref>.</p></sec>
+    <sec><title>Final diagnosis</title><p>DIAGNOSIS_EXPOSITION_ONLY_TEXT: A deliberately fictional concluding diagnostic argument.</p></sec>
+  </body>
+  <back><ref-list><ref id="r1"><label>1</label><element-citation publication-type="journal"><article-title>REFERENCE_ONLY_TEXT</article-title><source>Fictional Journal</source><year>2000</year></element-citation></ref></ref-list></back>
+</article>

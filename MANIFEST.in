@@ -1,0 +1,6 @@
+include README.md LICENSE .env.example
+recursive-include docs *.md
+recursive-include examples *.json *.xml *.md
+recursive-include data/disease_index *.md
+recursive-include scripts *.py
+recursive-include tests *.py

@@ -1,0 +1,13 @@
+MedCaseAgent contributors
+
+Except where otherwise noted, the original code, documentation and disease-index
+annotations in this release are licensed under the Creative Commons
+Attribution-NonCommercial 4.0 International license (CC BY-NC 4.0), as specified
+in the accompanying MedCaseAgent manuscript.
+
+License: https://creativecommons.org/licenses/by-nc/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc/4.0/legalcode.en
+
+Third-party libraries and source publications retain their own licenses. The
+article-license metadata in the disease index describes the source article;
+it does not relicense the article, its figures or its full text.

@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "resource": "records.jsonl.gz",
+  "record_count": 152295,
+  "input_row_count": 152295,
+  "fields": [
+    "pmcid",
+    "pmid",
+    "doi",
+    "year",
+    "diseases",
+    "title",
+    "journal",
+    "pub_date",
+    "license"
+  ],
+  "sources": [
+    {
+      "file": "extracted_diseases.jsonl",
+      "sha256": "5ac3dfc88f85a41013da9f74ab2de51503bf85044027502774e49993ef257d34",
+      "role": "disease_names"
+    },
+    {
+      "file": "llm_filtered.db",
+      "sha256": "40f533a91e56568b1bd4473686eb13ab0585519a7d65cec7b41969196f00b997",
+      "role": "citation_metadata"
+    }
+  ],
+  "corrections": {
+    "file": "corrections.json",
+    "sha256": "6948b8f174c09913f6d73796cb6ba63a3c56c5ec74c5ee2c49b8789cd9352fa7",
+    "applied_count": 1
+  },
+  "resource_sha256": "51f7a6f3a594778303dee58f750e95be6bf69bf88c5c6c3315e377d8a677240b",
+  "resource_bytes": 11204800,
+  "year_counts": {
+    "2000": 54,
+    "2001": 57,
+    "2002": 81,
+    "2003": 108,
+    "2004": 141,
+    "2005": 161,
+    "2006": 247,
+    "2007": 451,
+    "2008": 1159,
+    "2009": 2028,
+    "2010": 1695,
+    "2011": 2193,
+    "2012": 2530,
+    "2013": 3204,
+    "2014": 4172,
+    "2015": 4632,
+    "2016": 5329,
+    "2017": 6465,
+    "2018": 7447,
+    "2019": 8566,
+    "2020": 11832,
+    "2021": 15395,
+    "2022": 16898,
+    "2023": 16431,
+    "2024": 18034,
+    "2025": 20322,
+    "2026": 2663
+  },
+  "disease_name_count": 442024,
+  "unique_disease_name_count": 136934,
+  "records_without_disease_names": 1,
+  "metadata_coverage": {
+    "pmid": 152295,
+    "doi": 0,
+    "title": 152295,
+    "journal": 152295,
+    "pub_date": 152295,
+    "license": 152295
+  },
+  "benchmark_split": null
+}

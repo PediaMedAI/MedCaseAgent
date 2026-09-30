@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "medcase-agent"
+version = "0.1.0"
+description = "Clinical case-report preprocessing and Planner–Writer–Editor inference."
+requires-python = ">=3.10"
+license = "CC-BY-NC-4.0"
+license-files = ["LICENSE"]
+readme = "README.md"
+dependencies = [
+  "openai>=1.30,<3",
+  "python-dotenv>=1.0,<2",
+  "requests>=2.31,<3",
+  "Pillow>=10",
+]
+
+[project.optional-dependencies]
+local-vision = ["torch>=2.2", "transformers>=4.50", "accelerate>=0.30", "opencv-python-headless>=4.8", "numpy>=1.24"]
+dev = ["pytest>=8", "build>=1.2"]
+
+[project.scripts]
+medcase-agent = "medcase_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["medcase_agent*", "preprocessing*"]
+
+[tool.setuptools.package-data]
+medcase_agent = ["resources/disease_index/*.json", "resources/disease_index/*.jsonl.gz"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
